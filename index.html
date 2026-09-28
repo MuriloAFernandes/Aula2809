@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Fim das Bets no Brasil</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        br: {
+                            green: '#009c3b',
+                            darkGreen: '#006425',
+                            yellow: '#ffdf00',
+                            red: '#8b0000',
+                            darkRed: '#5c0000'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .hero-pattern {
+            background-color: #8b0000;
+            background-image: radial-gradient(#5c0000 2px, transparent 2px);
+            background-size: 32px 32px;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <header class="hero-pattern text-white min-h-[70vh] flex flex-col justify-center items-center text-center p-6 relative overflow-hidden">
+        <div class="absolute top-0 left-0 w-full h-2 bg-br-yellow"></div>
+        <div class="max-w-4xl z-10">
+            <div class="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-br-darkRed border border-br-yellow text-br-yellow text-sm font-bold tracking-widest uppercase mb-6 shadow-lg">
+                <i class="ph ph-warning text-lg"></i>
+                Reportagem Especial
+            </div>
+            <h1 class="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">
+                Fim de Jogo:<br>
+                <span class="text-br-yellow">O Fim das Bets no Brasil</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-200 mb-10 max-w-2xl mx-auto font-light">
+                Entenda como a regulamentação implacável e os impactos sociais levaram ao encerramento da era das apostas esportivas no país do futebol.
+            </p>
+            <a href="#contexto" class="inline-block bg-br-yellow text-br-darkRed font-bold px-8 py-4 rounded-lg hover:bg-yellow-300 transition-colors duration-300 shadow-xl">
+                Ler a Reportagem
+            </a>
+        </div>
+        <!-- Efeito visual no fundo -->
+        <div class="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-gray-50 to-transparent"></div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 py-16">
+        
+        <section id="contexto" class="mb-24 scroll-mt-24">
+            <div class="flex flex-col md:flex-row gap-12 items-center">
+                <div class="md:w-1/2">
+                    <div class="text-br-green font-bold uppercase tracking-wider mb-2">A Ascensão e a Queda</div>
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6 text-gray-900">Contexto Histórico</h2>
+                    <p class="text-lg text-gray-700 mb-4 leading-relaxed">
+                        A partir de 2018, com a sanção da Lei 13.756, o Brasil viveu uma explosão sem precedentes no mercado de apostas esportivas. O que começou como um nicho rapidamente se tornou um fenômeno cultural. As "bets" dominaram os patrocínios de clubes da Série A, B e C, invadiram os intervalos comerciais e se tornaram o assunto principal em mesas de bar.
+                    </p>
+                    <p class="text-lg text-gray-700 leading-relaxed">
+                        No entanto, a falta de regulamentação imediata criou um "Velho Oeste" digital. Escândalos de manipulação de resultados (como a Operação Penalidade Máxima) e a proliferação desenfreada de publicidade voltada a públicos vulneráveis começaram a gerar um alerta vermelho na sociedade brasileira.
+                    </p>
+                </div>
+                <div class="md:w-1/2">
+                    <div class="bg-br-darkGreen rounded-2xl p-8 text-white shadow-2xl relative overflow-hidden">
+                        <i class="ph-fill ph-trend-down absolute -right-10 -bottom-10 text-9xl text-br-green opacity-30"></i>
+                        <h3 class="text-2xl font-bold mb-4 text-br-yellow">Linha do Tempo</h3>
+                        <ul class="space-y-4">
+                            <li class="flex gap-4">
+                                <span class="font-bold text-br-yellow w-16 shrink-0">2018</span>
+                                <span>Legalização das apostas de cota fixa (Lei 13.756).</span>
+                            </li>
+                            <li class="flex gap-4">
+                                <span class="font-bold text-br-yellow w-16 shrink-0">2023</span>
+                                <span>Escândalos de manipulação de resultados abalam o futebol.</span>
+                            </li>
+                            <li class="flex gap-4">
+                                <span class="font-bold text-br-yellow w-16 shrink-0">2024</span>
+                                <span>Primeiras tentativas de regulamentação pesada e taxação.</span>
+                            </li>
+                            <li class="flex gap-4">
+                                <span class="font-bold text-br-yellow w-16 shrink-0">Fim</span>
+                                <span>Medida Provisória proíbe operações devido a crises sociais.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-24 scroll-mt-24 bg-white rounded-3xl shadow-xl p-8 md:p-12 border-t-8 border-br-red">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <i class="ph ph-gavel text-6xl text-br-red mb-4"></i>
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 text-gray-900">A Decisão Governamental</h2>
+                <p class="text-lg text-gray-600">
+                    O ponto de ruptura ocorreu quando o custo social superou as promessas de arrecadação tributária.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-6 rounded-xl border border-gray-100 hover:shadow-md transition-shadow">
+                    <i class="ph-fill ph-prohibit text-4xl text-br-red mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Proibição da Publicidade</h3>
+                    <p class="text-gray-600">O primeiro passo foi o banimento total de publicidade em TV, rádio, internet e camisas de times, sufocando a aquisição de novos usuários.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-xl border border-gray-100 hover:shadow-md transition-shadow">
+                    <i class="ph-fill ph-bank text-4xl text-br-red mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Bloqueio Financeiro</h3>
+                    <p class="text-gray-600">O Banco Central interveio, proibindo transações via PIX e cartões de crédito para plataformas de apostas não domiciliadas no Brasil.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-xl border border-gray-100 hover:shadow-md transition-shadow">
+                    <i class="ph-fill ph-file-text text-4xl text-br-red mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Revogação de Licenças</h3>
+                    <p class="text-gray-600">Com as novas exigências draconianas de compliance e prevenção ao vício, 98% das empresas abandonaram o mercado voluntariamente.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center text-gray-900">O Balanço dos Impactos</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Impacto Econômico -->
+                <div class="bg-br-green text-white p-8 rounded-2xl shadow-lg relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-br-yellow rounded-bl-full opacity-20"></div>
+                    <i class="ph ph-chart-line-up text-5xl text-br-yellow mb-6"></i>
+                    <h3 class="text-2xl font-bold mb-4">Impactos Econômicos</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3">
+                            <i class="ph-fill ph-check-circle text-br-yellow mt-1"></i>
+                            <span><strong>Aumento no Varejo:</strong> Com o fim das perdas em apostas, notou-se um retorno substancial da renda das famílias para o consumo de bens essenciais, supermercados e serviços.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="ph-fill ph-warning-circle text-br-yellow mt-1"></i>
+                            <span><strong>Crise no Futebol:</strong> Clubes perderam sua principal fonte de patrocínio do dia para a noite, forçando uma reestruturação financeira profunda no esporte bretão.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="ph-fill ph-check-circle text-br-yellow mt-1"></i>
+                            <span><strong>Queda do Endividamento:</strong> Redução nas taxas de inadimplência ligadas a empréstimos predatórios contraídos para manter o vício em jogos.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Impacto Social -->
+                <div class="bg-br-darkRed text-white p-8 rounded-2xl shadow-lg relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-br-yellow rounded-bl-full opacity-10"></div>
+                    <i class="ph ph-users-three text-5xl text-br-yellow mb-6"></i>
+                    <h3 class="text-2xl font-bold mb-4">Impactos Sociais</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3">
+                            <i class="ph-fill ph-heart text-br-yellow mt-1"></i>
+                            <span><strong>Saúde Mental:</strong> Clínicas relataram queda brusca em novos casos de ludopatia (vício em jogos) e depressão associada a perdas financeiras extremas.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="ph-fill ph-house text-br-yellow mt-1"></i>
+                            <span><strong>Proteção Familiar:</strong> Fim dos relatos de famílias desestruturadas por pais e jovens que perderam economias de uma vida no "tigrinho" ou em apostas combinadas.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="ph-fill ph-shield-check text-br-yellow mt-1"></i>
+                            <span><strong>Esporte Limpo:</strong> Restauração gradativa da confiança do torcedor brasileiro na integridade dos resultados dos campeonatos nacionais.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 text-gray-400 py-12 text-center border-t-4 border-br-green">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="flex justify-center items-center gap-2 mb-4">
+                <i class="ph-fill ph-flag text-br-yellow text-2xl"></i>
+                <h4 class="text-white text-xl font-bold tracking-wider">FIM DAS BETS</h4>
+            </div>
+            <p class="mb-6 font-light">Este é um projeto documental hipotético ilustrando um cenário sobre o fim das apostas esportivas no Brasil.</p>
+            <div class="flex justify-center gap-6">
+                <a href="#" class="hover:text-br-yellow transition-colors"><i class="ph ph-twitter-logo text-2xl"></i></a>
+                <a href="#" class="hover:text-br-yellow transition-colors"><i class="ph ph-instagram-logo text-2xl"></i></a>
+                <a href="#" class="hover:text-br-yellow transition-colors"><i class="ph ph-article text-2xl"></i></a>
+            </div>
+            <p class="mt-8 text-sm opacity-50">&copy; 2026 Reportagem Especial. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
