@@ -6,16 +6,16 @@ on:
   pull_request:
     branches: [main]
 
-  jobs:
+jobs:
     Mensagem:
     #criar a maquina virtual
-    runs-on: ubuntu-latest
-    steps:
-      - name: Fazer o git clone
-        uses: actions/checkout@v4
+      runs-on: ubuntu-latest
+      steps:
+        - name: Fazer o git clone
+          uses: actions/checkout@v4
 
-      - name: Executando primeiro comando
-        run:
-          ls -l
-          echo "Fim do PROCESSO"
+        - name: Executando primeiro comando
+          run: |
+            ls -l
+            echo "Fim do PROCESSO"
     
