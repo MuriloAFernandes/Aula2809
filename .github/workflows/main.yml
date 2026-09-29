@@ -68,6 +68,6 @@ jobs:
           uses: docker/build-push-action@v7.4.0
           with:
             file: 
-            tags: muriloafernandes/img_sembets
+            tags: muriloafernandes/img_sembets:1.0
             target:
 
